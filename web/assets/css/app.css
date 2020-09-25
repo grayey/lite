@@ -1,0 +1,51 @@
+
+
+button:disabled{
+  cursor:not-allowed;
+}
+
+
+.sidebar{
+  left: 0;
+  height:92.5vh;
+  background:rgb(247,247,247);
+  width:15vw;
+  padding:3% .5%;
+}
+
+.content{
+  position: absolute;
+  height: 92.5vh;
+  left:15vw;
+  top: 7.5vh;
+  width:85vw;
+  padding: 30px 10px;
+}
+
+.links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0 5px;
+
+}
+
+.links li{
+  padding-top: 1em;
+  color: white;
+}
+
+.dash-info{
+  max-width: 20rem;
+}
+
+.dot {
+  height: 12px;
+  width: 12px;
+  background-color: #218838;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+#accountModal{
+z-index: 10000;
+}
