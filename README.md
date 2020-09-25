@@ -1,6 +1,6 @@
 # Instructions
 
-    Clone or Download and unzip file this repository to your preferred directory
+    Clone or Download and unzip this repository to your preferred directory
     Open command terminal and navigate to the directory, i.e cd <path-to-directory>
     The 'api' and 'web' folders here, are the Laravel(backend) and Vue(frontend) apps respectively
 
