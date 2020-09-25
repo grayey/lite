@@ -12,7 +12,8 @@
     Type 'composer install' and click 'enter'
     After installation is complete, create a new file named '.env' and copy the contents of .env.example into it
     In the .env file, set your Database credentials (Host, Username, Password).
-    At the end of the file, you can also change the USD_GBP_RATE variable. (It is used to set the conversion factor, in case of cross-currency transactions). When changes are made to the .env file, re-run "php artisan config:cache" to effect the new changes
+    At the end of the file, you can also change the USD_GBP_RATE variable. (It is used to set the conversion factor, in case of cross-currency transactions). 
+    When changes are made to the .env file, re-run "php artisan config:cache" to effect the new changes
     Finally run:
         php artisan key:generate
         php artisan migrate:fresh --seed
